@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "systematicity-entropy"
+version = "0.1.0"
+description = ""
+authors = ["Sondre Wold <sondrewo@uio.no>", "Lucas Georges Gabriel Charpentier <lgcharpe@uio.no>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.5.0"
+numpy = "^2.1.2"
+tqdm = "^4.66.5"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+flake8 = "^7.0.0"
+wandb = "^0.17.3"
+pytest = "^8.2.1"
+pre-commit = "^3.7.1"
+nltk = "^3.9.1"
+types-six = "^1.17.0.20241205"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
